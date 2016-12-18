@@ -4,9 +4,29 @@
 var config = {
   version: '0.0.1',
   staticCacheItems: [
-    // '/img/logo-mark--pixelup.png',
-    // '/js/pixelup.js',
-    '/offline/'
+    '/img/speakers/andy-clarke.jpg',
+    '/img/speakers/austin-knight.jpg',
+    '/img/speakers/brad-frost.jpg',
+    '/img/speakers/emma-craig.jpg',
+    '/img/speakers/kevin-m-hoffman.jpg',
+    '/img/speakers/mindy-gold.jpg',
+    '/img/speakers/nancy-douyon.jpg',
+    '/img/speakers/ron-bronson.jpg',
+    '/img/speakers/sebastiaan-de-with.jpg',
+    '/img/speakers/tendayi-viki.jpg',
+    '/img/speakers/val-head.jpg',
+    '/img/venue/waterfront.jpg',
+    '/img/logo-mark--pixelup.png',
+    '/js/pixelup.js',
+    '/fonts/ttf/FiraSans-Light.ttf',
+    '/fonts/ttf/FiraSans-Bold.ttf',
+    '/fonts/ttf/FiraSans-Ultra.ttf',
+    '/fonts/woff2/FiraSans-Bold.woff2',
+    '/fonts/woff2/FiraSans-Ultra.woff2',
+    '/css/',
+    '/favicon.ico',
+    '/offline/',
+    '/'
   ],
   cachePathPattern: /^\/(?:(20[0-9]{2}|about|blog|css|img|js)\/(.+)?)?$/,
   offlineImage: '<svg role="img" aria-labelledby="offline-title"'
